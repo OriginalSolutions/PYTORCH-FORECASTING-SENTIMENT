@@ -15,6 +15,7 @@ Only the difference between the forecast and actual prices was taken into accoun
 It was not possible to open positions, because the execution time of one experiment, depending on the laptop, took up to:
 20 minutes - first laptop (including backtest up to 12 min.), 15 minutes - second laptop (including backtest up to 10 min.) which made real investing impossible.
 
+___
 II. RESULTS
 
 The first laptop showed a higher cumulative theoretical profit.
@@ -32,10 +33,11 @@ first laptop - 61%,
 
 second laptop – 51%
 
-
+___
 III. CONCLUSIONS AND ASSUMPTIONS
 
 Presumably:
+
     1.  Such different results are caused by the generation of different pseudo-random numbers on each laptop.
     2.  This problem should not exist for when programmed a large number of epochs. However, the project was tested on a small number of epochs.
        

@@ -1,6 +1,7 @@
 # PYTORCH-FORECASTING-SENTIMENT
 
 I. DEFINITIONS AND TIME SCOPE
+
 The project was tested on 200 experiments, with 100 experiments on each of two laptops.
 Experiment - forecasting of already existing prices (backtesting) + forecasting of future, unknown prices.
 First laptop on old software (operating system + python) and second laptop on newer software.
@@ -13,6 +14,7 @@ It was not possible to open positions, because the execution time of one experim
 20 minutes - first laptop (including backtest up to 12 min.), 15 minutes - second laptop (including backtest up to 10 min.) which made real investing impossible.
 
 II. RESULTS
+
 The first laptop showed a higher cumulative theoretical profit.
 The maximum cumulative theoretical profit that could be generated during the analyzed period was 14139 USDT.
 
@@ -20,16 +22,15 @@ Taking into account the losses, the cumulative theoretical profit was:
 first laptop: 4312 USDT – (30.1%),
 second laptop: 1565 USDT – (11.07%).
 
-
 The share of correct forecasts is for:
-first laptop - 61% , 
+first laptop - 61%, 
 second laptop – 51%
 
 
 III. CONCLUSIONS AND ASSUMPTIONS
+
 Presumably:
     1.  Such different results are caused by the generation of different pseudo-random numbers on each laptop.
-       
     2.  This problem should not exist for when programmed a large number of epochs. However, the project was tested on a small number of epochs.
        
 

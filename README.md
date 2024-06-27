@@ -11,7 +11,9 @@ from February 2024 to June 17, 2024. Most experiments were conducted in June.
 Each experiment ended with a 30-minute price forecast for BTC.
 
 If the last forecast price was higher than the last actual price, it could be concluded that the forecast market sentiment is positive and vice versa.
+
 Only the difference between the forecast and actual prices was taken into account for calculations, without considering the commission for opening a contract.
+
 It was not possible to open positions, because the execution time of one experiment, depending on the laptop, took up to:
 20 minutes - first laptop (including backtest up to 12 min.), 15 minutes - second laptop (including backtest up to 10 min.) which made real investing impossible.
 

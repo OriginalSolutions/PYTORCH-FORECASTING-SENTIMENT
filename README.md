@@ -37,7 +37,6 @@ ___
 III. CONCLUSIONS AND ASSUMPTIONS
 
 Presumably:
-
     1.  Such different results are caused by the generation of different pseudo-random numbers on each laptop.
     2.  This problem should not exist for when programmed a large number of epochs. However, the project was tested on a small number of epochs.
        
